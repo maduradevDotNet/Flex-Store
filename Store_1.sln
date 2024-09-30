@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{5A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store1.Services.CouponAPI", "Store1.Services.CouponAPI\Store1.Services.CouponAPI.csproj", "{C8ACD45F-476E-4BC8-B108-5BD7DA4F41D0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store1.Web.Coupon", "Store1.Web.Coupon\Store1.Web.Coupon.csproj", "{18CE277C-30D9-420C-8C3B-19128ECB069F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +25,17 @@ Global
 		{C8ACD45F-476E-4BC8-B108-5BD7DA4F41D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8ACD45F-476E-4BC8-B108-5BD7DA4F41D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8ACD45F-476E-4BC8-B108-5BD7DA4F41D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18CE277C-30D9-420C-8C3B-19128ECB069F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18CE277C-30D9-420C-8C3B-19128ECB069F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18CE277C-30D9-420C-8C3B-19128ECB069F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18CE277C-30D9-420C-8C3B-19128ECB069F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C8ACD45F-476E-4BC8-B108-5BD7DA4F41D0} = {15D24370-B5AB-4F6B-9D19-A63635880CAE}
+		{18CE277C-30D9-420C-8C3B-19128ECB069F} = {5A152ADF-87FE-4030-B723-88262305131D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B0146408-38DC-4C67-8D0F-CBDC23990914}
