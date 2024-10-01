@@ -5,6 +5,12 @@ namespace Store1.Web.Coupon.Service
 {
     public class CouponService : ICouponService
     {
+        private readonly IBaseService _baseService;
+
+        public CouponService(IBaseService baseService)
+        {
+            _baseService=baseService;
+        }
         public Task<ResponseDto?> CreateCouponAsync(CouponDTO couponDto)
         {
             throw new NotImplementedException();
