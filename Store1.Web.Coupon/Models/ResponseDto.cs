@@ -1,4 +1,4 @@
-﻿namespace Store1.Services.CouponAPI.Models.DTO
+﻿namespace Store1.Web.Coupon.Models
 {
     public class ResponseDto
     {
