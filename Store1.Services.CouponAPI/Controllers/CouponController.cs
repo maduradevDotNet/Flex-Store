@@ -64,7 +64,7 @@ namespace Store1.Services.CouponAPI.Controllers
 
         [HttpGet]
         [Route("GetByCode/{code}")]
-        public ResponseDto GetByCode(string code)
+        public ResponseDto GetCouponByCodeAsync(string code)
         {
             try
             {

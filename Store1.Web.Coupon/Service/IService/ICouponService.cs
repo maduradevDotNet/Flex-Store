@@ -5,9 +5,9 @@ namespace Store1.Web.Coupon.Service.IService
 {
     public interface ICouponService
     {
-        Task<ResponseDto?> GetCouponAsync(string CouponCode);
+        //Task<ResponseDto?> GetCouponAsync(string CouponCode);
         Task<ResponseDto?> GetAllCouponAsync();
-        Task<ResponseDto?> GetCouponByCodeAsync(string code);
+        Task<ResponseDto?> GetCouponByCodeAsync(string CouponCode);
         Task<ResponseDto?> GetCouponByIdAsync(int id);
         Task<ResponseDto?> CreateCouponAsync(CouponDTO couponDto);
         Task<ResponseDto?> UpdateCouponAsync(CouponDTO couponDto);
